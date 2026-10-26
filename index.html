@@ -1,0 +1,829 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topzy Portfolio</title>
+    <meta name="claude:viewport-fit-sides" content="cover" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Hanken+Grotesk:wght@400;500;600&family=Fragment+Mono&display=swap"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="progress" id="progress"></div>
+
+    <header class="bar" id="bar">
+      <div class="wrap">
+        <a class="brand" href="#top" data-go="top"><span>TZ</span>Topzy</a>
+        <nav class="nav" id="nav" aria-label="Sections">
+          <a href="#about" data-go="about">About</a>
+          <a href="#skills" data-go="skills">Skills</a>
+          <a href="#projects" data-go="projects">Projects</a>
+          <a href="#resume" data-go="resume">Resume</a>
+          <a href="#contact" data-go="contact">Contact</a>
+        </nav>
+        <div class="tools">
+          <button
+            class="icon-btn"
+            id="theme"
+            type="button"
+            aria-label="Switch colour theme"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4.5" />
+              <path
+                d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"
+              />
+            </svg>
+          </button>
+          <button
+            class="icon-btn menu-btn"
+            id="menuBtn"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="nav"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 8h16M4 16h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="wrap">
+          <div class="pill rise d1">
+            <i></i>Available for freelance and full-time work
+          </div>
+          <div class="eyebrow rise d2" style="margin-top: 28px">
+            Topzy &middot; Frontend engineer
+          </div>
+          <h1 class="rise d3">
+            I build <span class="mk">fast</span>, polished web apps.
+          </h1>
+          <p class="lede rise d4">
+            Frontend engineer working with React, Next.js and TypeScript to
+            craft accessible, responsive applications with clean code and
+            dynamic motion.
+          </p>
+          <div class="cta rise d5">
+            <a class="btn primary" href="#projects" data-go="projects"
+              >See my work
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 17L17 7M8 7h9v9" /></svg
+            ></a>
+            <a class="btn" href="#contact" data-go="contact"
+              >Get in touch
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 17L17 7M8 7h9v9" /></svg
+            ></a>
+          </div>
+          <dl class="now rise d5">
+            <div>
+              <dt>Now</dt>
+              <dd>Mid-level frontend engineer, Ascent Tech Hub Africa</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Accessible, responsive apps with motion</dd>
+            </div>
+            <div>
+              <dt>Daily stack</dt>
+              <dd>React, Next.js, TypeScript, Tailwind CSS</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="marquee" aria-hidden="true">
+          <div class="track">
+            <span>React</span><span>Next.js</span><span>TypeScript</span
+            ><span>JavaScript</span><span>Tailwind CSS</span
+            ><span>Framer Motion</span><span>GSAP</span><span>Supabase</span
+            ><span>Appwrite</span><span>TanStack</span><span>Redux</span
+            ><span>Zod</span><span>Figma</span> <span>React</span
+            ><span>Next.js</span><span>TypeScript</span><span>JavaScript</span
+            ><span>Tailwind CSS</span><span>Framer Motion</span><span>GSAP</span
+            ><span>Supabase</span><span>Appwrite</span><span>TanStack</span
+            ><span>Redux</span><span>Zod</span><span>Figma</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="about">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <div class="eyebrow">About</div>
+            <h2>Engineering and design, in one pair of hands.</h2>
+          </div>
+          <div class="about">
+            <div class="copy rv">
+              <p>
+                I am a frontend engineer who bridges solid engineering and
+                expressive design, building web apps that are accessible,
+                responsive and a pleasure to use.
+              </p>
+              <p>
+                I work mostly in React, Next.js and TypeScript, with Tailwind
+                CSS for styling and Framer Motion or GSAP when an interface
+                needs motion. Supabase and Appwrite cover the backend when a
+                project calls for one.
+              </p>
+              <p>
+                Since 2023 I have worked through internships, freelance projects
+                and now a mid-level role at Ascent Tech Hub Africa. I am open to
+                freelance projects and full-time roles.
+              </p>
+            </div>
+            <dl class="facts rv" style="--d: 0.12s">
+              <div>
+                <dt>Role</dt>
+                <dd>Frontend engineer</dd>
+              </div>
+              <div>
+                <dt>Working since</dt>
+                <dd>2023</dd>
+              </div>
+              <div>
+                <dt>Available for</dt>
+                <dd>Freelance, full-time</dd>
+              </div>
+              <div>
+                <dt>Core stack</dt>
+                <dd>React, Next.js, TypeScript</dd>
+              </div>
+              <div>
+                <dt>Backends</dt>
+                <dd>Supabase, Appwrite</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="skills">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <div class="eyebrow">Skills</div>
+            <h2>What I reach for every day.</h2>
+          </div>
+          <div class="skills stagger">
+            <div class="group rv">
+              <h3>Frontend <small>Core</small></h3>
+              <ul>
+                <li style="--lv: 96%">
+                  <span>Tailwind CSS</span><span class="pct">96%</span><i></i>
+                </li>
+                <li style="--lv: 95%">
+                  <span>React</span><span class="pct">95%</span><i></i>
+                </li>
+                <li style="--lv: 94%">
+                  <span>JavaScript</span><span class="pct">94%</span><i></i>
+                </li>
+                <li style="--lv: 92%">
+                  <span>Next.js</span><span class="pct">92%</span><i></i>
+                </li>
+                <li style="--lv: 90%">
+                  <span>TypeScript</span><span class="pct">90%</span><i></i>
+                </li>
+              </ul>
+            </div>
+            <div class="group rv">
+              <h3>Motion and state <small>Craft</small></h3>
+              <ul>
+                <li style="--lv: 88%">
+                  <span>Framer Motion</span><span class="pct">88%</span><i></i>
+                </li>
+                <li style="--lv: 80%">
+                  <span>TanStack</span><span class="pct">80%</span><i></i>
+                </li>
+              </ul>
+              <p class="also">Also working with</p>
+              <ul class="chips">
+                <li>GSAP</li>
+                <li>Redux</li>
+                <li>Zod</li>
+              </ul>
+            </div>
+            <div class="group rv">
+              <h3>Backend and tools <small>Support</small></h3>
+              <ul>
+                <li style="--lv: 91%">
+                  <span>GitHub</span><span class="pct">95%</span><i></i>
+                </li>
+                <li style="--lv: 90%">
+                  <span>Appwrite</span><span class="pct">90%</span><i></i>
+                </li>
+                <li style="--lv: 70%">
+                  <span>Supabase</span><span class="pct">90%</span><i></i>
+                </li>
+              </ul>
+              <p class="also">Also working with</p>
+              <ul class="chips">
+                <li>Firebase</li>
+                <li>Node.js</li>
+                <li>Figma</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="projects">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <div class="eyebrow">Projects</div>
+            <h2>Selected work.</h2>
+          </div>
+          <div class="projects stagger">
+            <div class="rv feat">
+              <article class="card">
+                <div class="thumb">
+                  <svg
+                    viewBox="0 0 320 200"
+                    preserveAspectRatio="xMidYMid slice"
+                    aria-hidden="true"
+                  >
+                    <rect
+                      class="s"
+                      x="24"
+                      y="24"
+                      width="272"
+                      height="152"
+                      rx="10"
+                    />
+                    <rect
+                      class="a"
+                      x="52"
+                      y="118"
+                      width="26"
+                      height="40"
+                      rx="3"
+                    />
+                    <rect
+                      class="a"
+                      x="92"
+                      y="98"
+                      width="26"
+                      height="60"
+                      rx="3"
+                    />
+                    <rect
+                      class="m"
+                      x="132"
+                      y="82"
+                      width="26"
+                      height="76"
+                      rx="3"
+                    />
+                    <rect
+                      class="a"
+                      x="172"
+                      y="64"
+                      width="26"
+                      height="94"
+                      rx="3"
+                    />
+                    <rect
+                      class="a"
+                      x="212"
+                      y="48"
+                      width="26"
+                      height="110"
+                      rx="3"
+                    />
+                    <path
+                      class="l"
+                      d="M52 110 L92 90 L132 74 L172 54 L212 40 L262 52"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <div class="kind">Finance web app</div>
+                  <h3>Ascent Finance Suite</h3>
+                  <p>
+                    A finance web application built with Next.js, with Zod
+                    validating form input and Appwrite handling the backend.
+                  </p>
+                  <ul class="tags">
+                    <li>Next.js</li>
+                    <li>TypeScript</li>
+                    <li>Zod</li>
+                    <li>Appwrite</li>
+                  </ul>
+                  <button class="more" type="button" aria-expanded="false">
+                    Details
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M6 9l6 6 6-6" />
+                    </svg>
+                  </button>
+                  <div class="detail">
+                    <div>
+                      <p class="role">
+                        Role: frontend development, from the interface to the
+                        Appwrite integration, with typed and validated forms
+                        throughout.
+                      </p>
+                      <a
+                        class="visit"
+                        href="https://ascentfinance.app"
+                        target="_blank"
+                        rel="noopener"
+                        >Visit ascentfinance.app
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M7 17L17 7M8 7h9v9" /></svg
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="rv">
+              <article class="card">
+                <div class="thumb">
+                  <svg
+                    viewBox="0 0 320 200"
+                    preserveAspectRatio="xMidYMid slice"
+                    aria-hidden="true"
+                  >
+                    <circle class="s" cx="160" cy="100" r="78" />
+                    <circle class="m" cx="160" cy="100" r="56" />
+                    <circle class="a" cx="160" cy="100" r="34" />
+                    <circle class="s" cx="160" cy="100" r="12" />
+                    <circle class="i" cx="236" cy="52" r="9" />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <div class="kind">Brand website</div>
+                  <h3>Moda By Z</h3>
+                  <p>
+                    A responsive website for Moda By Z, built with React and a
+                    Supabase backend, with carefully polished animation.
+                  </p>
+                  <ul class="tags">
+                    <li>React</li>
+                    <li>TypeScript</li>
+                    <li>Tailwind CSS</li>
+                    <li>Supabase</li>
+                  </ul>
+                  <button class="more" type="button" aria-expanded="false">
+                    Details
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M6 9l6 6 6-6" />
+                    </svg>
+                  </button>
+                  <div class="detail">
+                    <div>
+                      <p class="role">
+                        Client feedback: the CEO praised the attention to detail
+                        and the polish of the animations.
+                      </p>
+                      <a
+                        class="visit"
+                        href="https://modabyz.me"
+                        target="_blank"
+                        rel="noopener"
+                        >Visit modabyz.me
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M7 17L17 7M8 7h9v9" /></svg
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="rv">
+              <article class="card">
+                <div class="thumb">
+                  <svg
+                    viewBox="0 0 320 200"
+                    preserveAspectRatio="xMidYMid slice"
+                    aria-hidden="true"
+                  >
+                    <rect
+                      class="s"
+                      x="70"
+                      y="84"
+                      width="180"
+                      height="88"
+                      rx="8"
+                    />
+                    <rect class="a" x="60" y="48" width="40" height="40" />
+                    <rect class="m" x="100" y="48" width="40" height="40" />
+                    <rect class="a" x="140" y="48" width="40" height="40" />
+                    <rect class="m" x="180" y="48" width="40" height="40" />
+                    <rect class="a" x="220" y="48" width="40" height="40" />
+                    <rect
+                      class="i"
+                      x="146"
+                      y="116"
+                      width="30"
+                      height="56"
+                      rx="3"
+                    />
+                    <rect
+                      class="m"
+                      x="92"
+                      y="106"
+                      width="36"
+                      height="34"
+                      rx="4"
+                    />
+                    <rect
+                      class="m"
+                      x="194"
+                      y="106"
+                      width="36"
+                      height="34"
+                      rx="4"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <div class="kind">Shopfront software</div>
+                  <h3>Shopfront Builder</h3>
+                  <p>
+                    Shopfront software that lets users create an online
+                    shopfront for their business, built with React, Supabase and
+                    TanStack.
+                  </p>
+                  <ul class="tags">
+                    <li>React</li>
+                    <li>Supabase</li>
+                    <li>Tailwind CSS</li>
+                    <li>TanStack</li>
+                  </ul>
+                  <button class="more" type="button" aria-expanded="false">
+                    Details
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M6 9l6 6 6-6" />
+                    </svg>
+                  </button>
+                  <div class="detail">
+                    <div>
+                      <p class="role">
+                        Role: frontend development. Lets a business owner set up
+                        their own shopfront without writing code.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="rv">
+              <article class="card">
+                <div class="thumb">
+                  <svg
+                    viewBox="0 0 320 200"
+                    preserveAspectRatio="xMidYMid slice"
+                    aria-hidden="true"
+                  >
+                    <rect
+                      class="s"
+                      x="40"
+                      y="24"
+                      width="240"
+                      height="152"
+                      rx="12"
+                    />
+                    <path
+                      class="a"
+                      d="M40 36a12 12 0 0 1 12-12h216a12 12 0 0 1 12 12v24H40z"
+                    />
+                    <rect
+                      class="s"
+                      x="64"
+                      y="76"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="104"
+                      y="76"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="m"
+                      x="144"
+                      y="76"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="184"
+                      y="76"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="224"
+                      y="76"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="64"
+                      y="110"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="a"
+                      x="104"
+                      y="110"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="144"
+                      y="110"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="184"
+                      y="110"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="m"
+                      x="224"
+                      y="110"
+                      width="26"
+                      height="26"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="64"
+                      y="144"
+                      width="26"
+                      height="22"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="104"
+                      y="144"
+                      width="26"
+                      height="22"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="144"
+                      y="144"
+                      width="26"
+                      height="22"
+                      rx="5"
+                    />
+                    <rect
+                      class="a"
+                      x="184"
+                      y="144"
+                      width="26"
+                      height="22"
+                      rx="5"
+                    />
+                    <rect
+                      class="s"
+                      x="224"
+                      y="144"
+                      width="26"
+                      height="22"
+                      rx="5"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <div class="kind">Booking software</div>
+                  <h3>Booking Software</h3>
+                  <p>
+                    Booking software that lets a business take appointments
+                    online, so customers pick a time and the business keeps its
+                    schedule in one place.
+                  </p>
+                  <ul class="tags">
+                    <li>React</li>
+                    <li>TypeScript</li>
+                    <li>Tailwind CSS</li>
+                  </ul>
+                  <button class="more" type="button" aria-expanded="false">
+                    Details
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M6 9l6 6 6-6" />
+                    </svg>
+                  </button>
+                  <div class="detail">
+                    <div>
+                      <p class="role">
+                        Role: frontend development, including the calendar and
+                        time-slot selection screens.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="rv">
+              <article class="card">
+                <div class="thumb">
+                  <svg
+                    viewBox="0 0 320 200"
+                    preserveAspectRatio="xMidYMid slice"
+                    aria-hidden="true"
+                  >
+                    <rect
+                      class="s"
+                      x="50"
+                      y="36"
+                      width="220"
+                      height="128"
+                      rx="12"
+                    />
+                    <path class="a" d="M146 78 L146 122 L186 100 Z" />
+                    <rect
+                      class="i"
+                      x="70"
+                      y="140"
+                      width="120"
+                      height="6"
+                      rx="3"
+                    />
+                    <rect
+                      class="m"
+                      x="70"
+                      y="140"
+                      width="52"
+                      height="6"
+                      rx="3"
+                    />
+                  </svg>
+                </div>
+                <div class="card-body">
+                  <div class="kind">Portfolio site</div>
+                  <h3>Videography Portfolio</h3>
+                  <p>
+                    A portfolio website for a videographer, with Framer Motion
+                    animation and a landing page designed to turn visitors into
+                    enquiries.
+                  </p>
+                  <ul class="tags">
+                    <li>React</li>
+                    <li>TypeScript</li>
+                    <li>Framer Motion</li>
+                  </ul>
+                  <button class="more" type="button" aria-expanded="false">
+                    Details
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M6 9l6 6 6-6" />
+                    </svg>
+                  </button>
+                  <div class="detail">
+                    <div>
+                      <p class="role">
+                        Client feedback: the videographer reported that landing
+                        page conversions doubled after launch.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="resume">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <div class="eyebrow">Resume</div>
+            <h2>Where I have worked.</h2>
+          </div>
+          <div class="resume">
+            <ol class="tl" id="tl"></ol>
+            <aside class="side rv">
+              <div>
+                <h3>Services</h3>
+                <ul id="services"></ul>
+              </div>
+              <button class="btn" id="copyResume" type="button">
+                <span>Copy resume as text</span
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="8" y="8" width="11" height="11" rx="2" />
+                  <path d="M5 15V6a1 1 0 0 1 1-1h9" />
+                </svg>
+              </button>
+              <p class="note">
+                Paste it into your own document. Downloads are not available on
+                this page.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="contact">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <div class="eyebrow">Contact</div>
+            <h2>Have a project in mind?</h2>
+          </div>
+          <div class="contact rv">
+            <p class="email"><span id="email">oluwazegun005@gmail.com</span></p>
+            <div class="cta" style="margin-top: 0">
+              <button class="btn primary" id="copyEmail" type="button">
+                <span>Copy email address</span
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="8" y="8" width="11" height="11" rx="2" />
+                  <path d="M5 15V6a1 1 0 0 1 1-1h9" />
+                </svg>
+              </button>
+              <span class="pill"
+                ><i></i>Open to freelance and full-time work</span
+              >
+            </div>
+            <ul class="links">
+              <li>
+                <a
+                  href="https://github.com/Topzy0804"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 17L17 7M8 7h9v9" /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/azeezullah-lawal-40805a374"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 17L17 7M8 7h9v9" /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/supatopzy0804"
+                  target="_blank"
+                  rel="noopener"
+                  >X
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 17L17 7M8 7h9v9" /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://dribbble.com/topzy0804"
+                  target="_blank"
+                  rel="noopener"
+                  >Dribbble
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 17L17 7M8 7h9v9" /></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <footer class="foot">
+            <span
+              >&copy; <span id="yr">2026</span> Topzy. Built with plain HTML,
+              CSS and JavaScript.</span
+            >
+            <a href="#top" data-go="top">Back to top</a>
+          </footer>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
